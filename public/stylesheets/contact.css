@@ -60,6 +60,7 @@
 	font-weight: bold;
 	letter-spacing: 2px;
 	margin-bottom: 40px;
+	font-family: Helvetica Neue !important;
 }
 
 .contact .title-container{
@@ -71,6 +72,7 @@
 	font-size: 19px;
 	padding-right: 40px;
 	letter-spacing: 1px;
+	font-family: Helvetica Neue !important;
 }
 
 .contact .text{
@@ -81,6 +83,11 @@
 .contact .text-2{
 	opacity: 0.95;
 	font-size: 15px;
+	font-family: Helvetica Neue !important;
+}
+
+.contact .title-4{
+	font-family: Helvetica Neue !important;
 }
 
 .contact .map-container{

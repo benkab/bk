@@ -106,3 +106,121 @@ body{
 .hideLoader{
 	display: none;
 }
+
+
+/* Mobile version */
+.mobile-home{
+	height: 40vh;
+}
+
+.mobile-home .slide-section{
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40vh;
+	color: #ffffff;
+	font-family: Helvetica Neue !important;
+	letter-spacing: 2px;
+	padding-left: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 35px;
+	position: relative;
+}
+
+.mobile-home .section-title{
+	position: absolute;
+}
+
+.mobile-home .slide-section img{
+	position: absolute;
+	width: 100px;
+}
+
+.mobile-home .slide-section .section-title{
+	bottom: 30px;
+}
+
+.mobile-home .section-one{
+	background: url('/images/BP_Home Page_Sections1.png');
+	/*padding-top: 110px;*/
+}
+
+.mobile-home .section-one img{
+	bottom: 120px;
+}
+
+.mobile-home .section-two{
+	background: url('/images/BP_Home Page_Sections2.png');
+}
+
+.mobile-home .section-two img{
+	width: 70px;
+	bottom: 90px;
+}
+
+.mobile-home .section-three{
+	background: url('/images/BP_Home Page_Sections3.png');
+}
+
+.mobile-home .section-three img{
+	width: 90px;
+	bottom: 60px;
+	/*margin-bottom: 20px;*/
+}
+
+.mobile-home .section-four{
+	background: url('/images/BP_Home Page_Sections4.png');
+}
+
+.mobile-home .section-four img{
+	width: 90px;
+	bottom: 160px;
+	/*margin-bottom: 20px;*/
+}
+
+.mobile-home .section-five{
+	background: url('/images/BP_Home Page_Sections5.png');
+	color: #1b2020 !important;
+}
+
+.mobile-home .section-five img{
+	width: 90px;
+	bottom: 90px;
+}
+
+.mobile-home .section-six{
+	background: url('/images/BP_Home Page_Sections6.png');
+}
+
+.mobile-home .section-six img{
+	width: 90px;
+	bottom: 120px;
+}
+
+.mobile-home .section-seven{
+	background: url('/images/BP_Home Page_Sections7.png');
+}
+
+.mobile-home .section-seven img{
+	width: 90px;
+	bottom: 60px;
+}
+
+.mobile-home .section-eight{
+	background: url('/images/BP_Home Page_Sections8.png');
+}
+
+.mobile-home .section-eight img{
+	width: 90px;
+	bottom: 120px;
+}
+
+.mobile-home .section-about{
+	background: url('/images/BP_Home Page_About.png');
+	color: #1b2020 !important;
+}
+
+.mobile-home .section-contact{
+	background: url('/images/BP_Home Page_Contact.png');
+}
