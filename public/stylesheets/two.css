@@ -1,0 +1,159 @@
+.two .page-header-container{
+	height: 100vh;
+	display: flex;
+	background: url('/images/BP_Home Page_Top Sections2.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	overflow: hidden !important;
+}
+
+.two .page-header-container-icon img{
+	width: 60px;
+	margin-left: 5px;
+}
+
+.two .left-column{
+	padding-top: 150px;
+	padding-left: 110px;
+	background: transparent;
+	flex: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.two .left-page-badge-container{
+	position: absolute;
+	right: 0px;
+	top: 20%;
+	background: #eef3f5;
+	height: 40px;
+	width: 200px;
+	padding: 0px;
+	padding-right: 0px;
+}
+
+.two .left-page-badge-text{
+	background: #1b2020;
+	color: #eef3f5;
+	text-align: center;
+	text-transform: uppercase;
+	height: 40px;
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 11px;
+	letter-spacing: 2px;
+}
+
+.two .right-page-badge-container{
+	position: absolute;
+	left: 0px;
+	top: 20%;
+	background: #eef3f5;
+	height: 40px;
+	width: 50px;
+}
+
+.two .page-heading{
+	padding-top: 50px;
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 75px;
+	letter-spacing: 2px;
+	color: #1b2020;
+	font-family: Helvetica Neue !important;
+}
+
+.two .page-heading-line{
+	margin-top: 50px;
+	border-top: 5px solid #1b2020;
+	max-width: 20%;
+	margin-bottom: 60px;
+}
+
+.two .top-left-second-section{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+	top: 0px;
+	background: #fcdf0e;
+	color: #000000;
+	padding-left: 110px;
+	padding-top: 85px;
+	padding-right: 130px;
+}
+
+.two .top-left-second-section-text{
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.two .right-column-second-section{
+	padding-bottom: 300px !important;
+}
+
+.two .bottom-left-second-section{
+	background: #d7dcdd;
+	color: #000000;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 50%;
+	padding-left: 110px;
+	padding-top: 95px;
+	padding-right: 40px;
+}
+
+.two .bottom-left-second-section .header-1{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.two .bottom-left-second-section .header-2{
+	font-size: 32px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.two .bottom-left-second-section ul{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.two .bottom-left-second-section ul li{
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.two .top-right-column-third-section{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 25%;
+	background: #798b8b;
+	color: #ffffff;
+	padding: 100px 80px;
+}
+
+.two .bottom-right-column-third-section{
+	position: absolute;
+	top: 75%;
+	left: 0px;
+	right: 0px;
+	bottom: 0%;
+	background: #1b2020;
+	color: #ffffff;
+	padding: 100px 60px;
+}
+
+.two .third-section .right-column-second-section{
+	padding-bottom: 280px !important;
+}

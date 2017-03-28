@@ -1,0 +1,206 @@
+.owl-carousel {
+   cursor: pointer;
+   min-width: 100% !important;
+   overflow-y: hidden;
+   width: 100vh !important;
+   height: 100vh !important;
+   padding: 0px !important;
+   margin: 0px !important;
+}
+
+.owl-carousel-item{
+	background: #333333;
+	color: #ffffff;
+	margin: 0px !important;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	border: none;
+	border-radius: 0px;
+	margin-top: -180px !important;
+}
+
+.owl-carousel-item a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.owl-carousel .item-one{
+	background: url('/images/BP_Home Page_Sections1.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-two{
+	background: url('/images/BP_Home Page_Sections2.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-three{
+	background: url('/images/BP_Home Page_Sections3.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-four{
+	background: url('/images/BP_Home Page_Sections4.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-five{
+	background: url('/images/BP_Home Page_Sections5_2.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-six{
+	background: url('/images/BP_Home Page_Sections6.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-seven{
+	background: url('/images/BP_Home Page_Sections7.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .item-eight{
+	background: url('/images/BP_Home Page_Sections8.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .about{
+	background: url('/images/BP_Home Page_About.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .contact{
+	background: url('/images/BP_Home Page_Contact.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.owl-carousel .owl-item-container{
+	padding: 35px 50px !important;
+}
+
+.owl-carousel .title-container{
+	margin-top: 80%;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 45px;
+	font-family: Helvetica Neue !important;
+	height: 120px !important;
+	letter-spacing: 2px;
+}
+
+.owl-carousel .paragraph p{
+	border: 1px solid #ffffff;
+	max-width: 0%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	transition: max-width 400ms ease-in;
+	opacity: 0;
+}
+
+.owl-carousel-item:hover .paragraph p{
+	max-width: 5% !important;
+	transition: max-width 400ms ease-in;
+	opacity: 1;
+}
+
+.owl-carousel .sub-title-container{
+	font-size: 16px;
+	text-align: left;
+	color: #F0F0F0;
+	line-height: 28px;
+	letter-spacing: 1px;
+	font-weight: 50;
+}
+
+.owl-carousel .sub-title-container .header{
+	color: #CA1818;
+	font-weight: bold;
+	font-size: 15px;
+	padding-bottom: -10px;
+	margin-bottom: -10px;
+}
+
+.owl-carousel .sub-title-container .header-2{
+	margin-top: 15px;
+}
+
+.owl-carousel .item-five .title-container, .owl-carousel .about .title-container{
+	color: #000000;
+}
+
+
+.owl-carousel .item-five .paragraph p, .owl-carousel .about .paragraph p{
+	border: 1px solid #000000;
+}
+
+.owl-carousel .item-five .sub-title-container, .owl-carousel .about .sub-title-container{
+	color: #000000;
+}
+
+.owl-carousel .graph-container{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	padding-left: 50px;
+	padding-top: 30px;
+	top: 60%;
+}
+
+.owl-carousel .graph-container img{
+	width: 100px;
+}
+
+.owl-carousel .item-two .graph-container img{
+	width: 70px;
+}
+
+.owl-carousel .item-four .graph-container img{
+	width: 95px;
+}
+
+.owl-carousel .item-five .graph-container img{
+	width: 90px;
+}
+
+.owl-carousel .item-six .graph-container img{
+	width: 93px;
+}
+
+.owl-carousel .item-eight .graph-container img{
+	width: 93px;
+}
+
+.displayIcon{
+	display: none !important; 
+}
+
+.scroll {
+	overflow-x: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+    .owl-carousel .title-container{
+		margin-top: 50%;
+	}
+}

@@ -1,0 +1,454 @@
+.one{
+	color: #ffffff;
+	position: relative;
+	text-align: left;
+}
+
+.actions{
+	overflow: hidden;
+	z-index: 9999999999;
+}
+
+.pagination-container{
+	position: fixed;
+	bottom: 55px;
+	color: #ffffff;
+	text-align: center;
+	border: 1px solid red;
+	z-index: 9999999999999999999;
+	margin: 0 auto;
+}
+
+.pagination-container .page{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	margin-left: 3px;
+	margin-right: 3px;
+	float: left;
+}
+
+.second-section{
+	height: 100vh !important;
+}
+
+.third-section{
+	height: 100vh !important;
+}
+
+.one .page-header-container{
+	height: 100vh;
+	display: flex;
+	background: url('/images/BP_Home Page_Top Sections.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	overflow: hidden !important;
+}
+
+.actions .left-arrow-container{
+	z-index: 999999999;
+	position: fixed;
+	bottom: 50px;
+	left: -100px;
+	overflow: hidden !important;
+	padding-left: 150px;
+	padding-right: 0px;
+	background: transparent;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.actions .left-arrow{
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 100%;
+	padding: 2px 10px;
+	z-index: 999999999999;
+	overflow: hidden !important;
+}
+
+.actions .left-arrow:hover{
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.first-back .left-arrow:hover{
+	background: rgba(255, 255, 255, 0.7);
+}
+
+
+.actions .previous.movePreviousSpan{
+	margin-left: 10px !important;
+	transition: margin-left 150ms ease-in;
+	background: rgba(0, 0, 0, 0.7);
+	color: #ffffff !important;
+}
+
+.first-back .previous.movePreviousSpan{
+	background: transparent;
+	color: transparent !important;
+}
+
+.actions .previous.movePreviousSpan a{
+	color: #ffffff !important;
+}
+
+.first-back .previous.movePreviousSpan a{
+	background: transparent;
+	color: transparent !important;
+}
+
+
+.actions .previous{
+	z-index: 99999999;
+	position: fixed;
+	bottom: 51px;
+	left: 50px;
+	text-align: center;
+	padding: 6px 60px;
+	border-radius: 15px;
+	margin-left: -144px;
+	transition: margin-left 150ms ease-out;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.actions .previous a{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+	color: transparent !important;
+	padding: 0px;
+	background: transparent;
+}
+
+.actions .left-arrow a{
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	overflow: hidden !important;
+}
+
+.actions .left-arrow span.icon{
+	font-size: 21px;
+	color: #000000;
+	padding: 0px;
+}
+
+.actions .right-arrow-container{
+	z-index: 999999999;
+	position: fixed;
+	bottom: 50px;
+	right: -100px;
+	overflow: hidden !important;
+	padding-right: 150px;
+	padding-left: 0px;
+	background: transparent;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.actions .right-arrow{
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 100%;
+	padding: 2px 10px;
+	z-index: 999999999999;
+	overflow: hidden !important;
+	cursor: pointer;
+}
+
+.actions .right-arrow a{
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 100%;
+	padding: 2px 10px;
+	z-index: 999999999999;
+	overflow: hidden !important;
+	cursor: pointer;
+	
+}
+
+.actions .right-arrow:hover{
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.actions .next.moveNextSpan{
+	margin-right: 65px !important;
+	transition: margin-right 150ms ease-in;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.actions .next.moveNextSpan a{
+	color: #ffffff !important;
+}
+
+
+.actions .next{
+	z-index: 99999999;
+	position: fixed;
+	bottom: 51px;
+	right: 0px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 6px 60px;
+	border-radius: 15px;
+	margin-right: -70px !important;
+	transition: margin-right 150ms ease-out;
+	background-color: transparent;
+}
+
+.actions .next a{
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 12px;
+	color: transparent !important;
+}
+
+.actions .right-arrow a{
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	padding: 0px;
+	background: transparent;
+}
+
+.actions .right-arrow span.icon{
+	font-size: 21px;
+	color: #000000;
+	padding: 0px;
+}
+
+.one .left-column{
+	padding-top: 250px;
+	padding-left: 110px;
+	background: transparent;
+	flex: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.one .right-column{
+	padding-top: 100px;
+	padding-right: 50px;
+	flex: column;
+	background: transparent;
+	overflow: hidden;
+}
+
+.one .page-heading{
+	font-size: 90px;
+	font-weight: bold;
+	line-height: 85px;
+	letter-spacing: 2px;
+	color: #eef3f5;
+	font-family: Helvetica Neue !important;
+}
+
+.page-heading{
+	font-family: Helvetica Neue !important;
+}
+
+.one .page-heading-line{
+	margin-top: 50px;
+	border-top: 5px solid #eef3f5;
+	max-width: 20%;
+	margin-bottom: 60px;
+}
+
+.page-heading-image img{
+	width: 100px;
+}
+
+.one .left-page-badge-container{
+	position: absolute;
+	right: 0px;
+	top: 20%;
+	background: #ffffff;
+	height: 40px;
+	width: 200px;
+	padding: 4px;
+	padding-right: 0px;
+}
+
+.one .left-page-badge-text{
+	background: #1b2020;
+	color: #eef3f5;
+	text-align: center;
+	text-transform: uppercase;
+	height: 32px;
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 6px;
+	letter-spacing: 2px;
+}
+
+.one .right-page-badge-container{
+	position: absolute;
+	left: 0px;
+	top: 20%;
+	background: #eef3f5;
+	height: 40px;
+	width: 50px;
+}
+
+.left-circle{
+	position: absolute;
+	right: 0px;
+	height: 300px;
+	top: 50%;
+	width: 300px;
+	border-radius: 100%;
+	background: #ffffff;
+	margin-right: -150px;
+}
+
+.right-circle{
+	position: absolute;
+	left: 0px;
+	height: 300px;
+	top: 50%;
+	width: 300px;
+	border-radius: 100%;
+	background: #fcdf0e;
+	margin-left: -150px;
+}
+
+.top-right-center{
+	position: absolute;
+	right: 30%;
+	height: 35px;
+	top: 35%;
+	width: 35px;
+	border-radius: 100%;
+	background: #000000;
+}
+
+.one .top-left-second-section{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+	top: 0px;
+	background: #fcdf0e;
+	color: #000000;
+	padding-left: 110px;
+	padding-top: 100px;
+	padding-right: 60px;
+}
+
+.top-left-second-section .line{
+	border-top: 5px solid #000000;
+	max-width: 15px;
+	margin-bottom: 30px;
+}
+
+.one .top-left-second-section-text{
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.one .left-column-second-section{
+	background: #d7dcdd !important;
+}
+
+.right-column-second-section{
+	background: #eef3f5;
+	color: #000000;
+	padding: 100px 120px;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	background: #eef3f5 !important;
+}
+
+.one .bottom-left-second-section{
+	background: url('/images/BP_Home Page_Elements9.png');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.top-right-column-third-section{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 30%;
+	background: #1f4398;
+	color: #ffffff;
+	padding: 100px 80px;
+	padding-top: 150px !important;
+}
+
+.top-right-column-third-section .apogee{
+	font-size: 20px;
+}
+
+.top-right-column-third-section ul{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.top-right-column-third-section ul li{
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	width: 250px;
+}
+
+.top-right-column-third-section .ideal{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.bottom-right-column-third-section{
+	position: absolute;
+	top: 70%;
+	left: 0px;
+	right: 0px;
+	background: #1b2020;
+	color: #ffffff;
+	padding: 100px 60px;
+	padding-bottom: 150px;
+}
+
+.one .third-section .right-column-second-section{
+	background: #eef3f5;
+	padding-top: 150px;
+}
+
+.second-section-line{
+	border-top: 5px solid #1f4398;
+	max-width: 104px;
+}
+
+.bottm-right-column-third-section-left-text{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.bottm-right-column-third-section-left-text-2{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.bottm-right-column-third-section-left-text-2 span{
+	font-size: 13px;
+}
+
+.ion-android-download{
+	font-size: 23px;
+}

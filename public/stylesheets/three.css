@@ -1,0 +1,146 @@
+.three .page-header-container{
+	height: 100vh;
+	display: flex;
+	background: url('/images/BP_Home Page_Top Sections3.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	overflow: hidden !important;
+
+}
+
+.three .left-page-badge-container{
+	position: absolute;
+	right: 0px;
+	top: 18%;
+	background: #eef3f5;
+	height: 50px;
+	width: 50px;
+}
+
+.three .right-page-badge-text{
+	background: #1b2020;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	height: 42px;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 9px;
+	letter-spacing: 2px;
+}
+
+.three .right-page-badge-container{
+	position: absolute;
+	left: 0px;
+	top: 18%;
+	background: #eef3f5;
+	height: 50px;
+	width: 250px;
+	padding: 4px;
+}
+
+.three .page-heading{
+	font-size: 90px;
+	font-weight: bold;
+	line-height: 85px;
+	letter-spacing: 2px;
+	color: #eef3f5;
+}
+
+.three .page-heading-line{
+	margin-top: 50px;
+	border-top: 5px solid #eef3f5;
+	max-width: 20%;
+	margin-bottom: 60px;
+}
+
+.three .left-column{
+	background: transparent;
+	flex: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.three .right-column{
+	padding-top: 260px;
+	padding-left: 110px;
+	flex: column;
+	background: transparent;
+	overflow: hidden;
+}
+
+.three .top-left-second-section{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+	top: 0px;
+	background: #fcdf0e;
+	color: #000000;
+	padding-left: 50px;
+	padding-top: 100px;
+	padding-right: 120px;
+}
+
+.three .top-left-second-section .line{
+	border-top: 5px solid #000000;
+	max-width: 15px;
+	margin-bottom: 30px;
+}
+
+.three .right-column-second-section{
+	background: #eef3f5;
+	color: #000000;
+	padding: 100px 120px;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	background: #eef3f5 !important;
+	padding-top: 130px !important;
+}
+
+.three .top-left-second-section-text{
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.three .bottom-left-second-section{
+	background: url('/images/BP_Home Page_Elements10.png');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+}
+
+.three .top-right-column-third-section{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 30%;
+	background: #1f4398;
+	color: #ffffff;
+	padding: 100px 80px;
+	padding-top: 150px !important;
+	padding-left: 120px;
+	padding-right: 0px !important;
+}
+
+.three .bottom-right-column-third-section{
+	padding-left: 120px;
+}
+.three .top-right-column-third-section{
+	background: #ed4545;
+}
+
+.three .bottom-right-column-third-section .second-section-line{
+	border-top-color: #fcdf0e !important;
+}

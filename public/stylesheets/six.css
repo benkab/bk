@@ -1,0 +1,164 @@
+.six .page-header-container{
+	height: 100vh;
+	display: flex;
+	background: url('/images/BP_Home Page_Top Sections6.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	overflow: hidden !important;
+}
+
+.six .page-header-container-icon img{
+	width: 70px;
+	margin-left: 5px;
+}
+
+.six .left-column{
+	padding-top: 260px;
+	padding-left: 110px;
+	background: transparent;
+	flex: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.six .left-page-badge-container{
+	position: absolute;
+	right: 0px;
+	top: 20%;
+	background: #eef3f5;
+	height: 50px;
+	width: 210px;
+	padding: 0px;
+}
+
+.six .page-heading-image{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+.six .page-heading-image img{
+	width: 65px;
+	margin-left: 15px;
+}
+
+.six .left-page-badge-text{
+	background: #1b2020;
+	color: #eef3f5;
+	text-align: center;
+	text-transform: uppercase;
+	height: 40px;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 11px;
+	letter-spacing: 2px;
+}
+
+.six .right-page-badge-container{
+	position: absolute;
+	left: 0px;
+	top: 20%;
+	background: #eef3f5;
+	height: 40px;
+	width: 50px;
+}
+
+.six .page-heading{
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 80px;
+	letter-spacing: 2px;
+	color: #1b2020;
+}
+
+.six .page-heading-line{
+	margin-top: 50px;
+	border-top: 5px solid #1b2020;
+	max-width: 20%;
+	margin-bottom: 60px;
+}
+
+.six .left-column-second-section{
+	background: #d7dcdd;
+}
+
+.six .top-left-second-section{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 50%;
+	top: 0px;
+	background: #fcdf0e;
+	color: #000000;
+	padding-left: 110px;
+	padding-top: 115px;
+	padding-right: 100px;
+}
+
+.six .top-left-second-section-text{
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+
+.six .right-column-second-section{
+	padding-bottom: 300px !important;
+}
+
+.six .second-section-line{
+	border-top: 5px solid #f26a38 !important;
+}
+
+.six .bottom-left-second-section .header-1{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.six .bottom-left-second-section .header-2{
+	font-size: 32px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.six .bottom-left-second-section ul{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.six .bottom-left-second-section ul li{
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+}
+
+.six .top-right-column-third-section{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 25%;
+	background: #798b8b;
+	color: #ffffff;
+	padding: 100px 80px;
+}
+
+.six .bottom-right-column-third-section{
+	position: absolute;
+	top: 75%;
+	left: 0px;
+	right: 0px;
+	bottom: 0%;
+	background: #1b2020;
+	color: #ffffff;
+	padding: 100px 60px;
+}
+
+.six .third-section .right-column-second-section{
+	padding-bottom: 280px !important;
+	padding-top: 150px !important;
+}
