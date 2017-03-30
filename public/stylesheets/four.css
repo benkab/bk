@@ -156,3 +156,52 @@
 .four .bottom-right-column-third-section .second-section-line{
 	border-top-color: #fcdf0e !important;
 }
+
+.mobile-page .page-four .header {
+	background: url('/images/BP_Home Page_Top Sections4.png') !important;
+
+}
+
+.mobile-page .page-four .page-header-text {
+	font-size: 45px;
+	line-height: 50px;
+}
+
+.mobile-page .page-four .second-small-section{
+	padding: 75px 40px;
+	background: #ed4545;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.mobile-page .second-small-section-line{
+	border-top: 5px solid #ffffff;
+	max-width: 15px;
+	margin-bottom: 30px;
+}
+
+.mobile-page .second-small-section-4{
+	height: 290px;
+}
+
+@media only screen and (max-width: 350px) {
+
+	.mobile-page .page-four .page-header-text {
+		font-size: 40px;
+		line-height: 44px;
+		bottom: 13%;
+	}
+
+	.mobile-page .page-four .page-header-line{
+		bottom: 4% !important;
+		border-top: 4px solid #1b2020 !important;
+		max-width: 50px !important;
+	}
+
+	.mobile-page .page-four .page-icon img{
+		width: 60px !important;
+		top: 35% !important;
+	}
+}

@@ -295,38 +295,6 @@
 	width: 50px;
 }
 
-.left-circle{
-	position: absolute;
-	right: 0px;
-	height: 300px;
-	top: 50%;
-	width: 300px;
-	border-radius: 100%;
-	background: #ffffff;
-	margin-right: -150px;
-}
-
-.right-circle{
-	position: absolute;
-	left: 0px;
-	height: 300px;
-	top: 50%;
-	width: 300px;
-	border-radius: 100%;
-	background: #fcdf0e;
-	margin-left: -150px;
-}
-
-.top-right-center{
-	position: absolute;
-	right: 30%;
-	height: 35px;
-	top: 35%;
-	width: 35px;
-	border-radius: 100%;
-	background: #000000;
-}
-
 .one .top-left-second-section{
 	position: absolute;
 	left: 0px;
@@ -392,6 +360,7 @@
 
 .top-right-column-third-section .apogee{
 	font-size: 20px;
+	font-family: Helvetica Neue !important;
 }
 
 .top-right-column-third-section ul{
@@ -411,7 +380,8 @@
 .top-right-column-third-section .ideal{
 	font-size: 26px;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
+	font-family: Helvetica Neue !important;
 }
 
 .bottom-right-column-third-section{
@@ -451,4 +421,197 @@
 
 .ion-android-download{
 	font-size: 23px;
+}
+
+.mobile-page .header {
+	background: url('/images/BP_Home Page_Top Sections.png');
+	background-origin: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color: #ffffff;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 120px;
+	position: relative;
+}
+
+.mobile-page .page-one .page-header-top{
+	background: #eef3f5;
+	max-width: 200px;
+	height: 38px;
+	position: relative;
+	padding: 4px;
+}
+
+.mobile-page .page-one .page-header-top-inside{
+	background: #1b2020;
+	color: #eef3f5;
+	position: absolute;
+	height: 30px;
+	max-width: 160px;
+	right: 0px;
+	left: 4px;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.mobile-page .page-header-text {
+	font-size: 52px;
+	font-weight: bold;
+	line-height: 62px;
+	letter-spacing: 2px;
+	color: #eef3f5;
+	font-family: Helvetica Neue !important;
+	position: absolute;
+	bottom: 27%;
+}
+
+@media only screen and (max-width: 350px) {
+	.mobile-page .page-header-text {
+		font-size: 32px;
+		line-height: 38px;
+		bottom: 30%;
+	}
+
+	.mobile-page .page-header-line{
+		bottom: 22% !important;
+		border-top: 4px solid #eef3f5 !important;
+		max-width: 50px !important;
+	}
+
+	.mobile-page .page-icon img{
+		width: 80px !important;
+		bottom: 2% !important;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1030px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  	.mobile-page .header {
+		padding-left: 70px;
+		padding-top: 180px;
+	}
+	
+	.mobile-page .page-header-text {
+		font-size: 75px !important;
+		line-height: 88px;
+		bottom: 12% !important;
+	}
+
+	.mobile-page .page-header-line{
+		left: 70px !important;
+	}
+
+	.mobile-page .second-small-section{
+		padding: 75px 70px !important;
+	}
+
+	.mobile-page .second-big-section{
+		padding: 75px 70px !important;
+	}
+
+	.mobile-page .third-section-top{
+		padding: 75px 70px !important;
+	}
+
+	.mobile-page .third-section-bottom{
+		padding: 75px 70px !important;
+	}
+}
+
+.mobile-page .page-header-line{
+	border-top: 5px solid #eef3f5;
+	max-width: 100px;
+	position: absolute;
+	bottom: 20%;
+	left: 40px;
+	right: 0px;
+}
+
+.mobile-page .page-icon img{
+	width: 100px;
+	position: absolute;
+	bottom: 5%;
+}
+
+.mobile-page .second-small-section{
+	padding: 75px 40px;
+	background: #fcdf0e;
+	color: #1b2020;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.mobile-page .second-small-section-line{
+	border-top: 5px solid #1b2020;
+	max-width: 15px;
+	margin-bottom: 30px;
+}
+
+.mobile-page .second-small-section-2{
+	background: url('/images/BP_Home Page_Elements9.png');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.mobile-page .second-big-section{
+	color: #000000;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	background: #eef3f5 !important;
+	padding: 75px 40px;
+}
+
+.mobile-page .third-section-top{
+	background: #1f4398;
+	color: #ffffff;
+	padding: 75px 40px;
+}
+
+
+.mobile-page .apogee{
+	font-size: 20px !important;
+	font-family: Helvetica Neue !important;
+}
+
+.mobile-page .ideal{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Helvetica Neue !important;
+	letter-spacing: 2px;
+}
+
+.mobile-page ul{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.mobile-page ul li{
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	width: 250px;
+}
+
+.mobile-page .third-section-bottom{
+	background: #1b2020;
+	padding: 75px 20px;
+	color: #eef3f5;
+}
+
+.mobile-page .second-section-line{
+	border-top: 5px solid #1f4398 !important;
 }

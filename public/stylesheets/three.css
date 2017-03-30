@@ -144,3 +144,64 @@
 .three .bottom-right-column-third-section .second-section-line{
 	border-top-color: #fcdf0e !important;
 }
+
+.mobile-page .page-three .page-header-top{
+	background: #eef3f5;
+	max-width: 200px;
+	height: 38px;
+	position: relative;
+	padding: 4px;
+}
+
+.mobile-page .page-three .page-header-top-inside{
+	background: #1b2020;
+	color: #eef3f5;
+	position: absolute;
+	height: 30px;
+	max-width: 140px;
+	right: 0px;
+	left: 56px;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.mobile-page .page-three .second-section-line{
+	border-top: 5px solid #fcdf0e !important;
+}
+
+.mobile-page .page-three .page-header-text {
+	font-size: 52px;
+	font-weight: bold;
+	line-height: 62px;
+	letter-spacing: 2px;
+	color: #eef3f5;
+	font-family: Helvetica Neue !important;
+	position: absolute;
+	bottom: 27%;
+}
+
+.mobile-page .page-three .second-small-section-2{
+	background: url('/images/BP_Home Page_Elements10.png') !important;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 50%;
+	right: 50%;
+}
+
+.mobile-page .page-three .third-section-top{
+	background: #ed4545;
+	color: #ffffff;
+	padding: 75px 40px;
+}
+
+.mobile-page .page-three .third-section-bottom{
+	padding-bottom: 50px;
+}

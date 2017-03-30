@@ -157,3 +157,137 @@
 .two .third-section .right-column-second-section{
 	padding-bottom: 280px !important;
 }
+
+.mobile-page .page-two .header {
+	background: url('/images/BP_Home Page_Top Sections2.png');
+
+}
+
+.mobile-page .page-two .page-header-top{
+	background: #1b2020 !important;
+	max-width: 200px;
+	height: 38px;
+	position: relative;
+	padding: 4px;
+	right: 0px;
+}
+
+.mobile-page .page-two .page-icon img{
+	width: 80px;
+	position: absolute;
+	top: 30%;
+}
+
+.mobile-page .page-two .second-small-section-3{
+	padding: 75px 40px;
+	background: #d7dcdd;
+	color: #1b2020;
+}
+
+.mobile-page .page-two .page-header-top-inside{
+	background: #1b2020;
+	color: #eef3f5;
+	position: absolute;
+	height: 30px;
+	max-width: 160px;
+	right: 0px;
+	left: 4px;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.mobile-page .page-two .page-header-text {
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 2px;
+	color: #1b2020 !important;
+	bottom: 15%;
+	padding-right: 30px;
+}
+
+.mobile-page .page-two .page-header-line{
+	bottom: 5% !important;
+	border-top: 4px solid #1b2020 !important;
+	max-width: 100px !important;
+}
+
+.mobile-page .page-two .third-section-top{
+	background: #798b8b !important;
+}
+
+.mobile-page .page-two .third-section-bottom{
+	background: #1b2020 !important;
+	height: 300px !important;
+}
+
+@media only screen and (max-width: 350px) {
+
+	.mobile-page .page-two .page-header-text {
+		font-size: 32px;
+		line-height: 38px;
+		bottom: 13%;
+	}
+
+	.mobile-page .page-two .page-header-line{
+		bottom: 4% !important;
+		border-top: 4px solid #1b2020 !important;
+		max-width: 50px !important;
+	}
+
+	.mobile-page .page-two .page-icon img{
+		width: 60px !important;
+		top: 35% !important;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+	.mobile-page .page-two .header {
+		padding-top: 90px;
+	}
+
+	.mobile-page .page-two .page-icon img{
+		width: 60px !important;
+		top: 30% !important;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1030px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  	.mobile-page .page-two .header {
+		padding-left: 70px;
+		padding-top: 180px;
+	}
+	
+	.mobile-page .page-two .page-header-text {
+		font-size: 70px !important;
+		line-height: 78px;
+		bottom: 30%;
+	}
+
+	.mobile-page .page-two .page-header-line{
+		left: 70px !important;
+	}
+
+	.mobile-page .page-two .second-small-section{
+		padding: 75px 70px !important;
+	}
+
+	.mobile-page .page-two .second-big-section{
+		padding: 75px 70px !important;
+	}
+
+	.mobile-page .page-two .third-section-top{
+		padding: 75px 70px !important;
+	}
+
+	.mobile-page .page-two .third-section-bottom{
+		padding: 75px 70px !important;
+	}
+}

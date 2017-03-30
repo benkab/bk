@@ -2,8 +2,8 @@
 	position: relative;
 	padding: 0px !important;
 	margin: 0px !important;  
-   width: 100%;
-   padding: 0px !important;
+   	width: 100%;
+   	padding: 0px !important;
 }
 
 .home .left-arrow{
@@ -54,6 +54,8 @@
 
 body{
 	position: relative;
+	padding: 0px !important;
+	margin: 0px !important;  
 }
 
 .loading{
@@ -107,25 +109,101 @@ body{
 	display: none;
 }
 
+.mobile-home-container{
+	margin-top: 55px;
+	margin-right: 0px !important;
+}
 
 /* Mobile version */
 .mobile-home{
-	height: 40vh;
+	height: 30vh;
+	margin-right: 0px !important;
 }
 
 .mobile-home .slide-section{
 	background-origin: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 40vh;
+	height: 30vh;
 	color: #ffffff;
 	font-family: Helvetica Neue !important;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	padding-left: 50px;
-	font-size: 30px;
+	font-size: 18px;
 	font-weight: bold;
-	line-height: 35px;
+	line-height: 25px;
 	position: relative;
+	margin-right: 0px !important;
+	
+}
+
+/*@media only screen and (max-width: 350px) {
+
+	.mobile-home .slide-section{
+		letter-spacing: 3px;
+		padding-left: 50px;
+		font-size: 20px !important;
+		line-height: 22px !important;
+	}
+
+	.mobile-home .slide-section .section-title{
+		top: 15%;
+	}
+}
+
+
+@media only screen and (max-width: 400px) {
+
+	.mobile-home .slide-section{
+		letter-spacing: 3px;
+		padding-left: 50px;
+		font-size: 25px !important;
+		line-height: 30px !important;
+	}
+
+	.mobile-home .slide-section .section-title{
+		top: 15%;
+	}
+}*/
+
+@media only screen and (max-width: 500px) {
+
+	.mobile-home .slide-section{
+		letter-spacing: 3px;
+		padding-left: 35px;
+		font-size: 30px;
+		line-height: 39px;		
+	}
+
+    .mobile-home-container{
+		margin-top: 60px;
+		margin-right: 0px !important;
+	}
+
+	.mobile-home .slide-section .section-title{
+		bottom: 15%;
+	}
+
+	.mobile-home{
+	  height: 40vh !important;
+	}
+
+	.mobile-home .slide-section{
+	  height: 40vh !important;
+	}
+
+	.mobile-home img{
+		bottom: 10px !important;
+	}
+
+	.mobile-home .section-two img{
+		width: 70px;
+		bottom: 30px !important;
+	}
+
+	.mobile-home .section-four img{
+		bottom: 0px !important;
+	}
 }
 
 .mobile-home .section-title{
@@ -134,7 +212,7 @@ body{
 
 .mobile-home .slide-section img{
 	position: absolute;
-	width: 100px;
+	
 }
 
 .mobile-home .slide-section .section-title{
@@ -143,11 +221,11 @@ body{
 
 .mobile-home .section-one{
 	background: url('/images/BP_Home Page_Sections1.png');
-	/*padding-top: 110px;*/
 }
 
 .mobile-home .section-one img{
 	bottom: 120px;
+	width: 90px;
 }
 
 .mobile-home .section-two{
@@ -199,7 +277,7 @@ body{
 }
 
 .mobile-home .section-seven{
-	background: url('/images/BP_Home Page_Sections7.png');
+	background: url('/images/BP_Home Page_Sections3.png');
 }
 
 .mobile-home .section-seven img{

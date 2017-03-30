@@ -16,7 +16,7 @@ $(document).ready(function(){
       0:{
           items:1
       },
-      615:{
+      1024:{
           items:2
       },
       1000:{
